@@ -1,0 +1,17 @@
+body{
+  text-align:center;
+}
+h1{
+  font-family: Monoton;
+  font-size:70px;
+
+}
+ul{
+  list-style:none;
+
+}
+li{
+  border:1px solid black;
+  float:left;
+
+}
