@@ -8,10 +8,13 @@ h1{
   width:200px;
   background-color: white;
   text-align:center;
-
-
-
 }
+#title{
+  font-size:100px;
+  text-align:center;
+}
+
+
 ul{
   list-style:none;
 
@@ -22,17 +25,17 @@ li{
 
 }
 div{
-  background-color: black;
-  display:inline-block;
+
+
 }
 #tabBAr{
   margin:5px black;
   padding-top:5px;
   padding-bottom:5px;
-
+background-color: black;
   width:805px
   height:40px;
-
+display:inline-block;
 
 }
 #homeTab{margin:0px;;
