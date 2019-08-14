@@ -1,9 +1,15 @@
 body{
-  text-align:center;
+
 }
 h1{
   font-family: Monoton;
-  font-size:70px;
+  font-size:25px;
+  margin:0px;
+  width:200px;
+  background-color: white;
+  text-align:center;
+
+
 
 }
 ul{
@@ -13,5 +19,41 @@ ul{
 li{
   border:1px solid black;
   float:left;
+
+}
+div{
+  background-color: black;
+  display:inline-block;
+}
+#tabBAr{
+  margin:5px black;
+  padding-top:5px;
+  padding-bottom:5px;
+
+  width:805px
+  height:40px;
+
+
+}
+#homeTab{margin:0px;;
+  background-color:white;
+  width:200px;
+  float;
+
+
+}
+#chamoyTab{margin:1px black;
+  background-color:white;
+  width:200px;
+
+}
+#applesTab{margin:1px black;
+  background-color:white;
+  width:200px;
+
+}
+#gummiesTab{margin:1px black;
+  background-color:white;
+  width:200px;
 
 }
