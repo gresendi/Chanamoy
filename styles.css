@@ -1,62 +1,101 @@
-body{
 
-}
 h1{
   font-family: Monoton;
   font-size:25px;
   margin:0px;
   width:200px;
   background-color: white;
-  text-align:center;
+  text-align:left;
+  width:max-content;
+}
+p{
+  font-size:25px;
 }
 #title{
   font-size:100px;
   text-align:center;
+  width: 100%;
+  width:max-content;
 }
 
+#container{
 
-ul{
-  list-style:none;
+  width:100%;
 
-}
-li{
-  border:1px solid black;
-  float:left;
-
-}
-div{
 
 
 }
+#cartLogo{
+  width:100px;
+
+
+}
+#body{
+  display:inline-block;
+  height:100%;
+  width:100%;
+  text-align:center;
+}
+
+
 #tabBAr{
-  margin:5px black;
-  padding-top:5px;
-  padding-bottom:5px;
-background-color: black;
-  width:805px
-  height:40px;
-display:inline-block;
+
+  border: 5px solid black;
+
+  background-color: white;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+
+  height:39px;
+
+
+
+
 
 }
-#homeTab{margin:0px;;
-  background-color:white;
-  width:200px;
-  float;
+#homeTab{
+  width:150px;
+
+
 
 
 }
-#chamoyTab{margin:1px black;
-  background-color:white;
-  width:200px;
+#cart{
+  font-size:40px;
+
+  width:100px;
+  float:right;
+
 
 }
-#applesTab{margin:1px black;
+#chamoyTab{
   background-color:white;
-  width:200px;
+  width:175px;
+
 
 }
-#gummiesTab{margin:1px black;
+#applesTab{
+  background-color:white;
+  width:150px;
+
+
+}
+#gummiesTab{
   background-color:white;
   width:200px;
 
+
+}
+
+#rightBar{
+  float:right;
+  height:100%;
+  width:45%;
+
+}
+#text{
+  float:left;
+  height:100%;
+  width:50%
 }
